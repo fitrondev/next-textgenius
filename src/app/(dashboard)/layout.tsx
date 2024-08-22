@@ -8,10 +8,10 @@ export default function DashboardLayout({
 }>) {
   return (
     <div className="flex size-full">
-      <div className="w-[20%] h-screen">
+      <div className="hidden lg:block w-[20%] h-screen">
         <Sidebar />
       </div>
-      <div className="w-[80%]">
+      <div className="w-full lg:w-[80%]">
         <Header />
         {children}
       </div>
