@@ -1,5 +1,5 @@
 import { UserButton } from "@clerk/nextjs";
-import Search from "../Search.tsx";
+import Search from "../Search";
 import MobileSidebar from "../Sidebar/MobileSidebar";
 import Image from "next/image.js";
 
