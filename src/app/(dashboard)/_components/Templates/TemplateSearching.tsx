@@ -37,10 +37,14 @@ const TemplateSearching = ({ onSearchChange }: TemplateSearchingProps) => {
   }
 
   return (
-    <section className="w-full h-[250px] bg-gradient-to-r from-slate-900 to-slate-700 text-background flex flex-col items-center justify-center gap-4">
+    <section className="w-full h-[200px] sm:h-[250px] bg-gradient-to-r from-slate-900 to-slate-700 text-background flex flex-col items-center justify-center gap-4">
       <div className="text-center">
-        <h3 className="text-3xl font-semibold">Browser All Templates</h3>
-        <p className="text-lg font-medium">What will you create today?</p>
+        <h3 className="text-2xl sm:text-3xl font-semibold">
+          Browser All Templates
+        </h3>
+        <p className="text-sm sm:text-lg font-medium">
+          What will you create today?
+        </p>
       </div>
 
       <div className="text-primary">
@@ -56,7 +60,7 @@ const TemplateSearching = ({ onSearchChange }: TemplateSearchingProps) => {
                       placeholder="Search here ..."
                       {...field}
                       autoComplete="off"
-                      className="w-[300px]"
+                      className="w-[250px] sm:w-[300px]"
                       onChange={(event) => {
                         field.onChange(event);
                         handleChange(event);
