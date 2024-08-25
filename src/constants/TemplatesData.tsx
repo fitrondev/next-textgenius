@@ -7,7 +7,7 @@ export const TemplatesData = [
     aiPrompt:
       "Give me 5 blog topic idea in bullet wise only based on give niche & outline and give me result in Rich text editor format",
     slug: "generate-blog-title",
-    form: [
+    formTemplates: [
       {
         label: "Enter your blog niche",
         field: "input",
