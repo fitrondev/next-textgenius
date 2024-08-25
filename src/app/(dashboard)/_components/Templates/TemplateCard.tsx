@@ -24,7 +24,7 @@ const TemplateCard = ({ name, desc, icon, slug }: TemplatesDataProps) => {
       </CardContent>
       <CardFooter className="flex items-center justify-center">
         <Button className="w-full" asChild>
-          <Link href={`/dashboard/templates/${slug}`}>
+          <Link href={`/dashboard/content/${slug}`}>
             <Bot className="mr-2" /> Use Template
           </Link>
         </Button>
